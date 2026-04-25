@@ -15,3 +15,34 @@ For evaluating the actual performance of different models in the Opencode/ Agent
 > - Score using the Scoring Rubric in Appendix A.
 > - Prompts are frozen — never modify them between models.
 > - Add new models at any time; scores remain directly comparable.
+
+
+## **Example:**
+1. **Environment：Opencode**
+
+2. **Test Task1 Execution Time:**
+- Kimi K2.6 - 21m 4s
+- DeepSeek V4 Flash max - 17m 14s
+- GPT-5.4 mini xhigh - 94m 37s
+
+3. **Execution Result:**
+
+Kimi K2.6：
+- [x] Count road markings (expect 6)
+- [x] Confirm legs visibly move in a pedaling pattern (not static)
+- [x] Confirm checklist has exactly 12 rows with correct text
+
+[![Watch Demo](https://img.youtube.com/vi/Zh8cnPuGwVk/0.jpg)](https://www.youtube.com/watch?v=Zh8cnPuGwVk)
+
+DeepSeek V4 Flash max：
+- [x] Confirm sun pulses
+- [x] Confirm checklist has exactly 12 rows with correct text
+
+[![Watch Demo](https://img.youtube.com/vi/z38d3tcHaVA/0.jpg)](https://www.youtube.com/watch?v=z38d3tcHaVA)
+
+GPT-5.4 mini xhigh：
+- [x] Confirm legs visibly move in a pedaling pattern (not static)
+
+[![Watch Demo](https://img.youtube.com/vi/p8HYuG2pU1s/0.jpg)](https://www.youtube.com/watch?v=p8HYuG2pU1s)
+
+
